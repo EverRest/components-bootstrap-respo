@@ -524,12 +524,72 @@ form .form-group {
 	line-height: 38px;
 	min-width: 288px;
 	border-radius: 1px;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	-o-border-radius: 1px;
 }
 
 /************ .carousel-container *********/
 
 .carousel-container {
 	margin-top: 54px;
+}
+
+.item .btn-more {
+	background-color: transparent;
+	min-width: 168px;
+	max-height: 50px;
+	line-height: 50px;
+	padding: 0;
+	color: #fff;
+	border-color: #fff;
+	border-radius: 2px
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	font-family: "RobotoMedium";
+}
+
+.carousel .carousel-caption {
+	text-align: left;
+	top: 0;
+	padding: 0;
+	left: 7%;
+}
+
+.carousel-caption h3 {
+	font-family: "RobotoLight";
+	font-size: 2.875em;
+	margin: 0;
+}
+
+.carousel-caption p {
+	font-family: "RobotoThin";
+	font-size: 0.875em;
+	max-width: 320px;
+	margin: 37px 0;
+}
+
+.carousel .carousel-control {
+	text-shadow: 0;
+	opacity: 1;
+	background-image: none;
+	/*position: relative;*/
+}
+
+.carousel-control .btn-control {
+	display: block;
+	position: absolute;
+	bottom: 50%;
+	left: 2%;
+	width: 34px;
+	height: 52px;
+	background: url('../img/arrows-carousel.png')  center left no-repeat;
+}
+
+.carousel-control:last-child .btn-control {
+	left: 75%;
+	background-position: center right;
 }
 
 /************* #myModal *********************/
@@ -545,6 +605,9 @@ div.modal.fade {
 
 .modal-content {
 	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-o-border-radius: 0;
 	max-width: 300px;
 	min-height: 380px;
 	font-family: "RobotoLight";
