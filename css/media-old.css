@@ -1,0 +1,315 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.main-soc-menu {
+		margin-left: 0;
+	}
+
+	.main-soc-menu .items-wrapper {
+		margin-top: 15px;
+		float: none;
+		text-align: center;
+	}
+
+	.soc-item {
+		display: inline-block;
+		margin: 0 3px;
+		width: 225px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+	.navbar-form .form-group {
+		margin-bottom: 6px;
+	}
+
+	.main-soc-menu form.form {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	.form input.form-control {
+		width: 300px;
+		border-radius: 1px;
+		-webkit-border-radius: 1px;
+		-moz-border-radius: 1px;
+		-o-border-radius: 1px;
+	}
+
+
+	.form button.btn {
+		margin-right: 14px;
+		/*margin-top: 7px;*/
+		display: block;
+	}
+
+	.main-soc-menu .items-wrapper {
+		margin: 30px auto;
+		float: none;
+		max-width: 100%;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	.carousel-container {
+		margin-top: 24px;
+	}
+
+	#myModal .modal-dialog {
+		margin-top: 400px;
+		left: 27%;
+	}
+
+	.form input.form-control {
+		margin-left: 10%;
+	}
+
+	.soc-item {
+		width: 190px;
+	}
+
+	.form button.btn {
+		margin-bottom: 15px;
+		margin-right: 10%;
+		margin-top: 0;
+	}
+
+	.main-soc-menu .form {
+		margin-bottom: 14px;
+	}
+
+	.main-soc-menu nav {
+		width: 60%;
+		margin-left: 20%;
+	}
+	.soc-item {
+		display: inline-block;
+		margin-right: 9px;
+	}
+	
+	.carousel-caption h3 {
+		font-size: 2em;
+		text-align: center;
+		margin: 10px 0 20px 0;
+	}
+	
+	.carousel-caption p {
+		font-size: 1em;
+		max-width: 260px;
+		padding-left: 20px;
+	}
+	
+	.carousel-caption .btn {
+		margin-top: 20px;
+		margin-left: 35%;
+	}
+	
+	.follow {
+		width: 24px;
+		height: 24px;
+	}
+}
+
+@media only screen and (max-width : 550px) {
+	#myModal .modal-dialog {
+		margin-top: 400px;
+		left: 20%;
+	}
+	.items-wrapper {
+		width: 550px;
+		margin-left: 2%;
+	}
+
+	.info li p {
+		font-size: 0.8em;
+	}
+
+	.info ul li {
+		padding-left: 30%;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.main-soc-menu nav {
+		padding-left: 0;
+	}
+	
+	.carousel-caption h3 {
+		text-align: center;
+	}
+	.soc-item {
+		width: 179px;
+		margin: 0 3px
+	}
+	.main-soc-menu nav {
+		width: 80%;
+		margin-left: 10%;
+	}
+	
+	.main-menu nav ul li a {
+		font-size: 1em;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+	.form h6 {
+		margin: 10px 24px;
+	}
+
+	.form input.form-control {
+		width: 180px;
+	}
+
+	.carousel-control:last-child .btn-control { 
+		left: 45%;
+	}
+
+	.main-menu nav ul li a {
+		padding-left: 25%;
+	}
+	.main-soc-menu form.form {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+	.carousel-control:last-child .btn-control { 
+		left: 50%;
+	}
+
+	.form input.form-control {
+		width: 220px;
+	}
+
+}
+
+@media only screen and (min-width: 600px) {
+	.carousel-control:last-child .btn-control {
+		left: 62%;
+	}
+	.form input.form-control {
+		width: 380px;
+	}
+	.main-soc-menu  form.form {
+		padding-top: 25px;
+		padding-bottom: 25px
+	}
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+	.top-nav nav ul li {
+		padding-left: 15px;
+	}
+
+	form.form {
+		border-left: 13px solid #45617b;
+	}
+
+	.form button.btn {
+		margin-right: 0;
+	}
+	.form input.form-control {
+		width: 285px;
+	}
+
+	.main-menu .soc-item {
+		display: block;
+    	margin: 0 auto;
+    	width: 220px;
+	}
+
+	.carousel-control:last-child .btn-control {
+		left: 68%;
+	}
+
+	.form h6 {
+		margin: 20px 24px;
+	}
+
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 850px) {
+	
+	.form input.form-control {
+		width: 275px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	body {
+		padding: 106px 0 122px 0;
+	}
+	
+	form input.form-control {
+		width: 225px;
+	}
+	.main-menu nav ul li a {
+		padding-left: 30%;
+		font-size: 1em;
+	}	
+
+	.carousel-control:last-child .btn-control {
+		left: 73%;
+	}
+
+	.main-soc-menu form.form {
+		padding: 0 30px 40px 30px;
+	}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	.main-soc-menu {
+		padding-left: 15px;
+	}
+	
+	.main-menu nav ul li a {
+		padding-left: 30%;
+		font-size: 1em;
+	}
+	
+	.main-soc-menu .items-wrapper {
+		min-width: 225px;
+	}
+	
+	.main-soc-menu  form.form {
+		padding-top: 15px;
+		padding-bottom: 15px;
+		margin-top: 14px;
+	}
+	
+	form.form {
+		border: none;
+	}
+	
+	.form input.form-control {
+		margin-right: 15px;
+	}
+	
+}
